@@ -77,14 +77,7 @@ d3.json(url, function(data) {
         var div = L.DomUtil.create("div", "info legend");
 
         var magnitude = [0, 1, 2, 3, 4, 5];
-        var colors = [
-            "#98ee00",
-            "#d4ee00",
-            "#eecc00",
-            "#ee9c00",
-            "#ea822c",
-            "#ea2c2c"
-        ];
+ 
         // Looping through the magnitude array to add to legend
         for (var i = 0; i < magnitude.length; i++) {
             div.innerHTML +=
